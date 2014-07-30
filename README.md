@@ -14,13 +14,15 @@ Installation
 
 * Add the source instruction to your .bashrc or .zshrc and create .bookmarks dir on your home:
 
-        source /path-of-jump-repo/jump
-        mkdir -p ~/.bookmarks
+        # add this to shell rc
+        source /path-of-jump-repo/jump  
+        #  create dir
+        mkdir -p ~/.bookmarks           
 
-* If you use zsh you may want to add autocompletion... to do this copy _jump to a folder that is included in fpath... check fpath on .zshenv
+* If you use zsh you may want to add autocompletion... to do this copy _jump to a folder that is included in fpath or add _jump directory to fpaths ... check fpath on .zshenv
 
-        # add your function directory inside fpath
-        fpath=($fpath $HOME/.zsh/func) 
+        # add your functions directory inside fpath
+        fpath=($fpath path/to/_jump/directory/) 
         typeset -U fpath
         
 * You may have to force rebuild `zcompdump`:
