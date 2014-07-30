@@ -40,8 +40,7 @@ Usage
 
         unmark foo
     
-Zsh completion
---------------
+#### zsh completion
 
         $ jump <PRESS TAB>
         foo  -- /home/michele/Projects/jump
