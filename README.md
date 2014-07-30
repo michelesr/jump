@@ -27,16 +27,23 @@ Installation
 Usage
 -----
 
-* Cd to a directory and mark it as 'j':
+* Cd to a directory and mark it as 'foo':
         
         cd Project/jump 
-        mark j
+        mark foo
 
-* Jump to 'j' bookmark:
+* Jump to bookmark:
  
-        jump j
+        jump foo
 
-* Remove 'j' bookmark:
+* Remove bookmark:
 
-        unmark j
+        unmark foo
     
+Zsh completion
+--------------
+
+        $ jump <PRESS TAB>
+        foo  -- /home/michele/Projects/jump
+        is   -- /home/michele/Projects/web_project
+        pj   -- /home/michele/Projects
