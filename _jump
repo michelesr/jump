@@ -1,3 +1,4 @@
+#! /bin/zsh
 #compdef jump unmark
 local -a options paths
 options=()
