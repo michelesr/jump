@@ -22,6 +22,10 @@ Installation
         # add your function directory inside fpath
         fpath=($fpath $HOME/.zsh/func) 
         typeset -U fpath
+        
+* You may have to force rebuild `zcompdump`:
+
+        rm -f ~/.zcompdump; compinit
     
     
 Usage
