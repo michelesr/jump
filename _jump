@@ -1,0 +1,8 @@
+#compdef jump unmark
+local -a options paths
+options=()
+for x in `ls ~/.bookmarks`
+do
+  options+="$x:`readlink ~/.bookmarks/$x`"
+done
+_describe 'values' options

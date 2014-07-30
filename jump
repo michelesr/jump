@@ -1,0 +1,11 @@
+jump () {
+  cd -P ~/.bookmarks/$1
+}
+
+mark () {
+  ln -s $PWD ~/.bookmarks/$1
+}
+
+unmark() {
+  rm ~/.bookmarks/$1
+}
